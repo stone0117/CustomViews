@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E7E30A61D44DA650029600F /* SNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E30A51D44DA650029600F /* SNTextView.m */; };
 		8EC4E6581D43E82900E688A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E6571D43E82900E688A3 /* main.m */; };
 		8EC4E65B1D43E82900E688A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E65A1D43E82900E688A3 /* AppDelegate.m */; };
 		8EC4E65E1D43E82900E688A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E65D1D43E82900E688A3 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E7E30A41D44DA650029600F /* SNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTextView.h; sourceTree = "<group>"; };
+		8E7E30A51D44DA650029600F /* SNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTextView.m; sourceTree = "<group>"; };
 		8EC4E6531D43E82900E688A3 /* Button_custom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Button_custom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC4E6571D43E82900E688A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC4E6591D43E82900E688A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 		8EC4E6701D43F58900E688A3 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				8E7E30A41D44DA650029600F /* SNTextView.h */,
+				8E7E30A51D44DA650029600F /* SNTextView.m */,
 				8EC4E66D1D43E83E00E688A3 /* SNButton.h */,
 				8EC4E66E1D43E83E00E688A3 /* SNButton.m */,
 			);
@@ -162,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7E30A61D44DA650029600F /* SNTextView.m in Sources */,
 				8EC4E65E1D43E82900E688A3 /* ViewController.m in Sources */,
 				8EC4E65B1D43E82900E688A3 /* AppDelegate.m in Sources */,
 				8EC4E66F1D43E83E00E688A3 /* SNButton.m in Sources */,
@@ -312,6 +318,7 @@
 				8EC4E66C1D43E82900E688A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
